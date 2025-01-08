@@ -75,7 +75,7 @@ backend/
 ### Backend (Spring Boot)
 1. Clone the repository:
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/ADKANK/ChatRoom.git
    ```
 
 2. Navigate to the backend directory:
@@ -115,3 +115,6 @@ backend/
 3. Start sending and receiving messages in real-time.
 
 
+## Screenshot
+![Home Page](screenshot/homepage.png)
+![Chat Screen](screenshot/chat-screen.png)
