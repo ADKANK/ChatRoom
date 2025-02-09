@@ -63,7 +63,7 @@ const JoinCreateChat = () => {
                 setCurrentUser(detail.userName);
                 setRoomId(response.roomId);
                 setConnected(true);
-                navigate(`/chat`);
+                navigate(`/chat/${response.roomId}`);
                 joinChat(); 
             } catch (error) {
                 console.error(error);
